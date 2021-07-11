@@ -1,0 +1,8 @@
+version: "3"
+services:
+  mongo:
+    image: mongo:4.4
+    container_name: eshop-mongodb
+    restart: always
+    ports:
+      - "27019:27017"
